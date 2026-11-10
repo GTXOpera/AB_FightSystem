@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Texto" name="Input1" style="font-size: 50px; bottom: auto; height: 90px;"/>
+    <ui:Label text="Texto" name="Input2" style="font-size: 50px; width: auto; height: 90px;"/>
+    <ui:Label text="Texto" name="Input3" style="font-size: 50px;"/>
+</ui:UXML>
