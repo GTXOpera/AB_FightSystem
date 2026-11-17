@@ -127,12 +127,12 @@ public class PlayerController : MonoBehaviour
                     PlayerState = STATES.Block;
                 }
 
-                // Para pasar al estado de movimientos como comandos. Apena funciona, pero lo hace, no se como
+                // Para pasar   1                                                                                                                                                                                                                                                                            al estado de movimientos como comandos. Apena funciona, pero lo hace, no se como
                 if (playerinput.actions["Punch"].WasPressedThisFrame())
                 {
                     PlayerState = STATES.NormalAttack;
 
-                    if (playerinput.actions["Punch"].activeControl == Keyboard.current.xKey && playerinput.actions["Command"].WasPressedThisFrame())
+                    if (Keyboard.current.xKey.IsPressed() && playerinput.actions["Command"].WasPressedThisFrame())
                     {
                         PlayerState = STATES.CommandAttack;
                     }
