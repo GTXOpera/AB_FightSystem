@@ -1,4 +1,5 @@
 using System;
+using System.Data.Common;
 using NUnit.Framework;
 using UnityEditor.Build;
 using UnityEngine;
@@ -55,6 +56,7 @@ public class PlayerController : MonoBehaviour
         UpdateState();
 
         // Debug.Log(rb.linearVelocity);
+        Debug.Log(PlayerState);
     }
 
     private void FixedUpdate()
@@ -124,10 +126,17 @@ public class PlayerController : MonoBehaviour
                 {
                     PlayerState = STATES.Block;
                 }
-                // if (playerinput.actions["Punch"].WasPressedThisFrame())
-                // {
-                //     PlayerState = STATES.NormalAttack;
-                // }
+
+                // Para pasar al estado de movimientos como comandos. Apena funciona, pero lo hace, no se como
+                if (playerinput.actions["Punch"].WasPressedThisFrame())
+                {
+                    PlayerState = STATES.NormalAttack;
+
+                    if (playerinput.actions["Punch"].activeControl == Keyboard.current.xKey && playerinput.actions["Command"].WasPressedThisFrame())
+                    {
+                        PlayerState = STATES.CommandAttack;
+                    }
+                }
 
                 break;
             case STATES.Walk:
@@ -156,6 +165,10 @@ public class PlayerController : MonoBehaviour
 
                 break;
             case STATES.NormalAttack:
+                if (playerinput.actions["Punch"].WasReleasedThisFrame())
+                {
+                    PlayerState = STATES.Idle;
+                }
                 break;
             case STATES.Crouch:
                 if (playerinput.actions["Block"].WasReleasedThisFrame() || !crouched)
@@ -170,7 +183,6 @@ public class PlayerController : MonoBehaviour
                 // {
                 //     PlayerState = STATES.NormalAttack;
                 // }
-
 
                 break;
             case STATES.HitStun:
@@ -256,8 +268,9 @@ public class PlayerController : MonoBehaviour
             print("Patada");
             cl.color = Color.softRed;
         }
-
     }
+
+
     private void GroundCheck()
     {
         float raylength = 1.1f;

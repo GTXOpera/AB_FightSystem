@@ -10,11 +10,10 @@ public class CommandMoves : MonoBehaviour
 
     void Start()
     {
-        // commandInput = GetComponent<PlayerInput>();
+        commandInput = GetComponent<PlayerInput>();
     }
 
     void Update()
     {
     }
-
 }

@@ -83,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -203,6 +203,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: dbaaf9c4-4374-448f-85e5-a3ef9fcfa83c
     m_ActionName: 'Player/Block[/Keyboard/c]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 39a4c77d-cf8f-45eb-ab83-610cfaf1dbe7
+    m_ActionName: 'Player/Command[/Keyboard/leftArrow,/Keyboard/downArrow,/Keyboard/rightArrow]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
