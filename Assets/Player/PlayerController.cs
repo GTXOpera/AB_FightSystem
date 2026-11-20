@@ -25,11 +25,13 @@ public class PlayerController : MonoBehaviour
     public STATES PlayerState;
 
     private Rigidbody2D rb;
+    private BoxCollider2D pyr;
     private SpriteRenderer cl;
     private PlayerInput playerinput;
     private Vector2 walkInput;
+    private Animator animator;
 
-    private float JUMP = 680f;
+    public float JUMP = 680f;
     private float SPEED = 8f;
     public bool ground;
     public bool otherPlayer;
@@ -40,6 +42,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         cl = GetComponent<SpriteRenderer>();
         playerinput = GetComponent<PlayerInput>();
+        animator = GetComponent<Animator>();
 
 
         if (invert)
@@ -67,7 +70,8 @@ public class PlayerController : MonoBehaviour
                 walk();
                 jump();
                 NormalAttack();
-                cl.color = Color.gray2; //gris
+                cl.color = Color.white;
+                
                 break;
             case STATES.Walk:
                 walk();
@@ -230,14 +234,15 @@ public class PlayerController : MonoBehaviour
         if (playerinput.actions["Crouch"].IsPressed() && ground)
         {
             playerinput.actions["Jump"].Disable();
-            rb.transform.localScale = new Vector2(1f, 0.5f);
+            rb.transform.localScale = new Vector2(0.8f, 0.4f);
+            
             crouched = true;
         }
 
         else
         {
             playerinput.actions["Jump"].Enable();
-            rb.transform.localScale = new Vector2(1f, 1f);
+            rb.transform.localScale = new Vector2(0.8f, 0.8f);
             crouched = false;
         }
     }
@@ -273,7 +278,7 @@ public class PlayerController : MonoBehaviour
 
     private void GroundCheck()
     {
-        float raylength = 1.1f;
+        float raylength = 3.1f;
 
         Ray ray = new Ray(transform.position, Vector2.down);
         Debug.DrawRay(ray.origin, ray.direction * raylength, Color.green);
