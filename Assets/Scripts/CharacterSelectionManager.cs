@@ -7,12 +7,13 @@ public class CharacterSelectionManager : MonoBehaviour
 {
     public Image characterFoto;
     public TMP_Text characterNombre;
-
     public Sprite[] characterSprites;
     public string[] characterNames;
     public GameObject characterSelectPanel;
     public GameObject stageSelectPanel;
     public GameObject mainMenuPanel;
+    public GameObject settingsPanel;
+
 
     public void ConfirmSelection()
     {
@@ -50,5 +51,20 @@ public class CharacterSelectionManager : MonoBehaviour
     {
         characterFoto.sprite = characterSprites[index];
         characterNombre.text = characterNames[index];
+    }
+    public void StartGame()
+    {
+        mainMenuPanel.SetActive(false);
+        characterSelectPanel.SetActive(true);
+    }
+    public void OpenSettings()
+    {
+        mainMenuPanel.SetActive(false);
+        settingsPanel.SetActive(true);
+    }
+    public void CloseSettings()
+    {
+        settingsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
 }
