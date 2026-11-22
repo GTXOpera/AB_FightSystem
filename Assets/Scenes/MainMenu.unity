@@ -3577,7 +3577,19 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1402494414}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1349285909
 GameObject:
   m_ObjectHideFlags: 0
@@ -3892,6 +3904,7 @@ MonoBehaviour:
   stageSelectPanel: {fileID: 167784220}
   mainMenuPanel: {fileID: 410877704}
   settingsPanel: {fileID: 584985994}
+  audioMixer: {fileID: 24100000, guid: c3e902c51abf20d4aa96b595ea336381, type: 2}
 --- !u!1 &1433298046
 GameObject:
   m_ObjectHideFlags: 0

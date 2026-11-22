@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Audio;
 
 public class CharacterSelectionManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class CharacterSelectionManager : MonoBehaviour
     public GameObject stageSelectPanel;
     public GameObject mainMenuPanel;
     public GameObject settingsPanel;
+    public AudioMixer audioMixer;
 
 
     public void ConfirmSelection()
@@ -66,5 +68,16 @@ public class CharacterSelectionManager : MonoBehaviour
     {
         settingsPanel.SetActive(false);
         mainMenuPanel.SetActive(true);
+    }
+    public void SetMusicVolume(float volume)
+    {
+        audioMixer.SetFloat("MusicVolume",
+            volume > 0.0001f ? Mathf.Log10(volume) * 20 : -80f);
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        audioMixer.SetFloat("SFXVolume",
+            volume > 0.0001f ? Mathf.Log10(volume) * 20 : -80f);
     }
 }
