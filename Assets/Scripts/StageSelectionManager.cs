@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class StageSelectionManager : MonoBehaviour
 {
@@ -45,5 +46,9 @@ public class StageSelectionManager : MonoBehaviour
     {
         stageSelectPanel.SetActive(false);
         characterSelectPanel.SetActive(true);
+    }
+    public void ConfirmStage()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }
