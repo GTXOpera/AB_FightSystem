@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
                 jump();
                 NormalAttack();
                 cl.color = Color.white;
-                
+                animator.SetBool("Moving", false);
                 break;
             case STATES.Walk:
                 walk();
