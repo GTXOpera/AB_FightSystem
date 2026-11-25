@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
         UpdateState();
 
         // Debug.Log(rb.linearVelocity);
-        Debug.Log(PlayerState);
+        // Debug.Log(PlayerState);
     }
 
     private void FixedUpdate()
@@ -275,6 +275,16 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+public void SpecialAttack()
+    {
+        var command = playerinput.actions["Command"];
+        var punchInput = playerinput.actions["Punch"];
+
+        if (command.IsPressed())
+        {
+            Console.Write("Comando");
+        }
+    }
 
     private void GroundCheck()
     {

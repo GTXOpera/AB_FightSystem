@@ -337,7 +337,7 @@ TextureImporter:
       name: IdleAnim_1
       rect:
         serializedVersion: 2
-        x: 802
+        x: 800
         y: 6400
         width: 800
         height: 800
@@ -359,7 +359,7 @@ TextureImporter:
       name: IdleAnim_2
       rect:
         serializedVersion: 2
-        x: 1604
+        x: 1600
         y: 6400
         width: 800
         height: 800
@@ -381,7 +381,7 @@ TextureImporter:
       name: IdleAnim_3
       rect:
         serializedVersion: 2
-        x: 2406
+        x: 2400
         y: 6400
         width: 800
         height: 800
@@ -403,7 +403,7 @@ TextureImporter:
       name: IdleAnim_4
       rect:
         serializedVersion: 2
-        x: 3208
+        x: 3200
         y: 6400
         width: 800
         height: 800
@@ -425,7 +425,7 @@ TextureImporter:
       name: IdleAnim_5
       rect:
         serializedVersion: 2
-        x: 4010
+        x: 4000
         y: 6400
         width: 800
         height: 800
@@ -447,8 +447,8 @@ TextureImporter:
       name: IdleAnim_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5598
+        x: 4800
+        y: 6400
         width: 800
         height: 800
       alignment: 0
@@ -469,8 +469,8 @@ TextureImporter:
       name: IdleAnim_7
       rect:
         serializedVersion: 2
-        x: 802
-        y: 5598
+        x: 0
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -491,8 +491,8 @@ TextureImporter:
       name: IdleAnim_8
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 5598
+        x: 800
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -513,8 +513,8 @@ TextureImporter:
       name: IdleAnim_9
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 5598
+        x: 1600
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -535,8 +535,8 @@ TextureImporter:
       name: IdleAnim_10
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 5598
+        x: 2400
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -557,8 +557,8 @@ TextureImporter:
       name: IdleAnim_11
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 5598
+        x: 3200
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -579,8 +579,8 @@ TextureImporter:
       name: IdleAnim_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4796
+        x: 4000
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -601,8 +601,8 @@ TextureImporter:
       name: IdleAnim_13
       rect:
         serializedVersion: 2
-        x: 802
-        y: 4796
+        x: 4800
+        y: 5600
         width: 800
         height: 800
       alignment: 0
@@ -623,8 +623,8 @@ TextureImporter:
       name: IdleAnim_14
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 4796
+        x: 0
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -645,8 +645,8 @@ TextureImporter:
       name: IdleAnim_15
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 4796
+        x: 800
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -667,8 +667,8 @@ TextureImporter:
       name: IdleAnim_16
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 4796
+        x: 1600
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -689,8 +689,8 @@ TextureImporter:
       name: IdleAnim_17
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 4796
+        x: 2400
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -711,8 +711,8 @@ TextureImporter:
       name: IdleAnim_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3994
+        x: 3200
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -733,8 +733,8 @@ TextureImporter:
       name: IdleAnim_19
       rect:
         serializedVersion: 2
-        x: 802
-        y: 3994
+        x: 4000
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -755,8 +755,8 @@ TextureImporter:
       name: IdleAnim_20
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 3994
+        x: 4800
+        y: 4800
         width: 800
         height: 800
       alignment: 0
@@ -777,8 +777,8 @@ TextureImporter:
       name: IdleAnim_21
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 3994
+        x: 0
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -799,8 +799,8 @@ TextureImporter:
       name: IdleAnim_22
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 3994
+        x: 800
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -821,8 +821,8 @@ TextureImporter:
       name: IdleAnim_23
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 3994
+        x: 1600
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -843,8 +843,8 @@ TextureImporter:
       name: IdleAnim_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3192
+        x: 2400
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -865,8 +865,8 @@ TextureImporter:
       name: IdleAnim_25
       rect:
         serializedVersion: 2
-        x: 802
-        y: 3192
+        x: 3200
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -887,8 +887,8 @@ TextureImporter:
       name: IdleAnim_26
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 3192
+        x: 4000
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -909,8 +909,8 @@ TextureImporter:
       name: IdleAnim_27
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 3192
+        x: 4800
+        y: 4000
         width: 800
         height: 800
       alignment: 0
@@ -931,8 +931,8 @@ TextureImporter:
       name: IdleAnim_28
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 3192
+        x: 0
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -953,8 +953,8 @@ TextureImporter:
       name: IdleAnim_29
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 3192
+        x: 800
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -975,8 +975,8 @@ TextureImporter:
       name: IdleAnim_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2390
+        x: 1600
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -997,8 +997,8 @@ TextureImporter:
       name: IdleAnim_31
       rect:
         serializedVersion: 2
-        x: 802
-        y: 2390
+        x: 2400
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -1019,8 +1019,8 @@ TextureImporter:
       name: IdleAnim_32
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 2390
+        x: 3200
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -1041,8 +1041,8 @@ TextureImporter:
       name: IdleAnim_33
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 2390
+        x: 4000
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -1063,8 +1063,8 @@ TextureImporter:
       name: IdleAnim_34
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 2390
+        x: 4800
+        y: 3200
         width: 800
         height: 800
       alignment: 0
@@ -1085,8 +1085,8 @@ TextureImporter:
       name: IdleAnim_35
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 2390
+        x: 0
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1107,8 +1107,8 @@ TextureImporter:
       name: IdleAnim_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1588
+        x: 800
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1129,8 +1129,8 @@ TextureImporter:
       name: IdleAnim_37
       rect:
         serializedVersion: 2
-        x: 802
-        y: 1588
+        x: 1600
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1151,8 +1151,8 @@ TextureImporter:
       name: IdleAnim_38
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 1588
+        x: 2400
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1173,8 +1173,8 @@ TextureImporter:
       name: IdleAnim_39
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 1588
+        x: 3200
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1195,8 +1195,8 @@ TextureImporter:
       name: IdleAnim_40
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 1588
+        x: 4000
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1217,8 +1217,8 @@ TextureImporter:
       name: IdleAnim_41
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 1588
+        x: 4800
+        y: 2400
         width: 800
         height: 800
       alignment: 0
@@ -1240,7 +1240,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 786
+        y: 1600
         width: 800
         height: 800
       alignment: 0
@@ -1261,8 +1261,8 @@ TextureImporter:
       name: IdleAnim_43
       rect:
         serializedVersion: 2
-        x: 802
-        y: 786
+        x: 800
+        y: 1600
         width: 800
         height: 800
       alignment: 0
@@ -1283,8 +1283,8 @@ TextureImporter:
       name: IdleAnim_44
       rect:
         serializedVersion: 2
-        x: 1604
-        y: 786
+        x: 1600
+        y: 1600
         width: 800
         height: 800
       alignment: 0
@@ -1305,8 +1305,8 @@ TextureImporter:
       name: IdleAnim_45
       rect:
         serializedVersion: 2
-        x: 2406
-        y: 786
+        x: 2400
+        y: 1600
         width: 800
         height: 800
       alignment: 0
@@ -1327,8 +1327,8 @@ TextureImporter:
       name: IdleAnim_46
       rect:
         serializedVersion: 2
-        x: 3208
-        y: 786
+        x: 3200
+        y: 1600
         width: 800
         height: 800
       alignment: 0
@@ -1349,8 +1349,8 @@ TextureImporter:
       name: IdleAnim_47
       rect:
         serializedVersion: 2
-        x: 4010
-        y: 786
+        x: 4000
+        y: 1600
         width: 800
         height: 800
       alignment: 0
@@ -1363,6 +1363,270 @@ TextureImporter:
       bones: []
       spriteID: e7b1dedbbaf22d547944621e7073dcb7
       internalID: 1667025505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_48
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a065d7b37f33244c99c521f4d0f3c3d
+      internalID: -2010482548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ec2c72a88da404aa19f469a801da49
+      internalID: -2022020454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56032ff0968df624291cc16db70a41d8
+      internalID: 629358345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_51
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e069d76e31152eb4890dcc2cd7fc3881
+      internalID: -1846861864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c871a3cbb08f045a55dbb7c3068b72
+      internalID: -1298396662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_53
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ab1666601e9e49af5c6536695a787
+      internalID: 121088833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_54
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbde5085fdb88c14aaba2293246838d0
+      internalID: 1882031808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_55
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6eba95d79d73a48bb98599873d748f
+      internalID: -368454636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c829c8975916d8c4080eb33e2b4fd2dd
+      internalID: 1754129731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_57
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f25a3783e581e3458aa7eafb2b92346
+      internalID: -1625666908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053dffc61439d834e86580c7b3288192
+      internalID: -2063733172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleAnim_59
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5817758f51287b34cabb1d45ec66c589
+      internalID: -1801968378
       vertices: []
       indices: 
       edges: []
@@ -1381,7 +1645,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":800.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":2.0,"y":2.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":9.0},"gridSpriteSize":{"x":800.0,"y":800.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       IdleAnim_0: -1868483866
       IdleAnim_1: -1010131128
@@ -1426,7 +1690,19 @@ TextureImporter:
       IdleAnim_45: 2113316388
       IdleAnim_46: 1381300454
       IdleAnim_47: 1667025505
+      IdleAnim_48: -2010482548
+      IdleAnim_49: -2022020454
       IdleAnim_5: 1979296669
+      IdleAnim_50: 629358345
+      IdleAnim_51: -1846861864
+      IdleAnim_52: -1298396662
+      IdleAnim_53: 121088833
+      IdleAnim_54: 1882031808
+      IdleAnim_55: -368454636
+      IdleAnim_56: 1754129731
+      IdleAnim_57: -1625666908
+      IdleAnim_58: -2063733172
+      IdleAnim_59: -1801968378
       IdleAnim_6: -1729946126
       IdleAnim_7: -1658791417
       IdleAnim_8: 1726684199
