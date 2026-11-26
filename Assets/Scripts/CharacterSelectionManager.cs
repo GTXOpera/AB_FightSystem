@@ -52,10 +52,12 @@ public class CharacterSelectionManager : MonoBehaviour
     void SelectCharacter(int index)
     {
         characterFoto.sprite = characterSprites[index];
+        characterFoto.enabled = true;
         characterNombre.text = characterNames[index];
     }
     public void StartGame()
     {
+        characterFoto.enabled = false;
         mainMenuPanel.SetActive(false);
         characterSelectPanel.SetActive(true);
     }
