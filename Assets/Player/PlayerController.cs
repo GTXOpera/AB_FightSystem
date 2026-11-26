@@ -1,6 +1,7 @@
 using System;
 using System.Data.Common;
 using NUnit.Framework;
+using UnityEditor.Animations;
 using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -22,7 +23,19 @@ public class PlayerController : MonoBehaviour
         Air
     }
 
+    public enum ANIM
+    {
+        Idle,
+        Walk,
+        Crouch,
+        Jump,
+        Block,
+        Jab,
+        Kick
+    }
+
     public STATES PlayerState;
+    public ANIM AnimState;
 
     private Rigidbody2D rb;
     private BoxCollider2D pyr;
@@ -37,13 +50,13 @@ public class PlayerController : MonoBehaviour
     public bool otherPlayer;
     private bool crouched;
     public bool invert = false;
+    string stateName;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         cl = GetComponent<SpriteRenderer>();
         playerinput = GetComponent<PlayerInput>();
         animator = GetComponent<Animator>();
-
 
         if (invert)
         {
@@ -57,6 +70,8 @@ public class PlayerController : MonoBehaviour
         GroundCheck();
         walkInput = playerinput.actions["Move"].ReadValue<Vector2>();
         UpdateState();
+
+        stateName = AnimState.ToString();
 
         // Debug.Log(rb.linearVelocity);
         // Debug.Log(PlayerState);
@@ -72,6 +87,9 @@ public class PlayerController : MonoBehaviour
                 NormalAttack();
                 cl.color = Color.white;
                 animator.SetBool("Moving", false);
+                animator.SetBool("zkey", false);
+                animator.SetBool("xkey", false);
+
                 break;
             case STATES.Walk:
                 walk();
@@ -81,14 +99,13 @@ public class PlayerController : MonoBehaviour
                 break;
             case STATES.NormalAttack:
                 NormalAttack();
-                walk();
-                animator.SetBool("zkey", true);
+                // playerinput.actions.Disable();
+                // animator.SetBool("zkey", true);
                 break;
             case STATES.Crouch:
                 crouch();
                 NormalAttack();
                 rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
-                cl.material.color = Color.violet; // morado
                 break;
             case STATES.HitStun:
                 break;
@@ -113,6 +130,8 @@ public class PlayerController : MonoBehaviour
         switch (PlayerState)
         {
             case STATES.Idle:
+
+
                 if (Mathf.Abs(walkInput.x) > 0.1f)
                 {
                     PlayerState = STATES.Walk;
@@ -133,7 +152,7 @@ public class PlayerController : MonoBehaviour
                 }
 
                 // Para pasar   1                                                                                                                                                                                                                                                                            al estado de movimientos como comandos. Apena funciona, pero lo hace, no se como
-                if (playerinput.actions["Punch"].WasPressedThisFrame())
+                if (playerinput.actions["Punch"].WasPerformedThisFrame())
                 {
                     PlayerState = STATES.NormalAttack;
 
@@ -170,10 +189,13 @@ public class PlayerController : MonoBehaviour
 
                 break;
             case STATES.NormalAttack:
-                if (playerinput.actions["Punch"].WasReleasedThisFrame())
+
+                if (this.animator.GetCurrentAnimatorStateInfo(0).IsName("Jab") || this.animator.GetCurrentAnimatorStateInfo(0).IsName("Kick"))
                 {
                     PlayerState = STATES.Idle;
                 }
+
+
                 break;
             case STATES.Crouch:
                 if (playerinput.actions["Block"].WasReleasedThisFrame() || !crouched)
@@ -263,17 +285,15 @@ public class PlayerController : MonoBehaviour
     public void NormalAttack()
     {
         var punchInput = playerinput.actions["Punch"];
-
         if (punchInput.activeControl == Keyboard.current.zKey)
         {
-            print("Puñetazo");
-            cl.color = Color.darkRed;
+            animator.SetBool("zkey", true);
         }
         else if (punchInput.activeControl == Keyboard.current.xKey)
         {
-            print("Patada");
-            cl.color = Color.softRed;
+            animator.SetBool("xkey", true);
         }
+
     }
 
     public void SpecialAttack()
