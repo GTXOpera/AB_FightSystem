@@ -82,6 +82,7 @@ public class PlayerController : MonoBehaviour
             case STATES.NormalAttack:
                 NormalAttack();
                 walk();
+                animator.SetBool("zkey", true);
                 break;
             case STATES.Crouch:
                 crouch();
@@ -235,7 +236,7 @@ public class PlayerController : MonoBehaviour
         {
             playerinput.actions["Jump"].Disable();
             rb.transform.localScale = new Vector2(0.8f, 0.4f);
-            
+
             crouched = true;
         }
 
@@ -275,7 +276,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-public void SpecialAttack()
+    public void SpecialAttack()
     {
         var command = playerinput.actions["Command"];
         var punchInput = playerinput.actions["Punch"];
