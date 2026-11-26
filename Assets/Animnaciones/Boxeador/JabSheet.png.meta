@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 6e5b36624950d5d46baaa7ef2c0b31f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7000459836241405322
+    second: JabSheet_0
+  - first:
+      213: 4669757479523217629
+    second: JabSheet_1
+  - first:
+      213: 4378361916549987607
+    second: JabSheet_2
+  - first:
+      213: 6600593616674692105
+    second: JabSheet_3
+  - first:
+      213: 6900606423088872247
+    second: JabSheet_4
+  - first:
+      213: -3734933602332330994
+    second: JabSheet_5
+  - first:
+      213: 1512841156369146984
+    second: JabSheet_6
+  - first:
+      213: 5844278892271984476
+    second: JabSheet_7
+  - first:
+      213: -3682020481591949340
+    second: JabSheet_8
+  - first:
+      213: 7088240824070861452
+    second: JabSheet_9
+  - first:
+      213: -4315516097572136807
+    second: JabSheet_10
+  - first:
+      213: 5421398058865925413
+    second: JabSheet_11
+  - first:
+      213: 1661873231125239227
+    second: JabSheet_12
+  - first:
+      213: -3416713293481492731
+    second: JabSheet_13
+  - first:
+      213: 3795762786925632319
+    second: JabSheet_14
+  - first:
+      213: 5447139183269947377
+    second: JabSheet_15
+  - first:
+      213: 679417961292555172
+    second: JabSheet_16
+  - first:
+      213: -2075257739243471474
+    second: JabSheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JabSheet_0
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2420
+        width: 395
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a11747ede59de90800000000000000
+      internalID: -7000459836241405322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2420
+        width: 395
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0743aafaf4ec040800000000000000
+      internalID: 4669757479523217629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2420
+        width: 395
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d7f0e27f013cc30800000000000000
+      internalID: 4378361916549987607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 2420
+        width: 395
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c1b944ce40a9b50800000000000000
+      internalID: 6600593616674692105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 2420
+        width: 467
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bbdf61bf0e3cf50800000000000000
+      internalID: 6900606423088872247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_5
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1620
+        width: 467
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04bf4d5da9da2cc0800000000000000
+      internalID: -3734933602332330994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1620
+        width: 529
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86469fe2401bef410800000000000000
+      internalID: 1512841156369146984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1620
+        width: 529
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f5f2e20bc0b1150800000000000000
+      internalID: 5844278892271984476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 1620
+        width: 551
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7cff251e5d6ecc0800000000000000
+      internalID: -3682020481591949340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_9
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 1620
+        width: 551
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c827a21797d7e5260800000000000000
+      internalID: 7088240824070861452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_10
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 820
+        width: 551
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9989bbd49f43c14c0800000000000000
+      internalID: -4315516097572136807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 820
+        width: 551
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d12bc8fccac3b40800000000000000
+      internalID: 5421398058865925413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 820
+        width: 551
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb553f216e8201710800000000000000
+      internalID: 1661873231125239227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 820
+        width: 529
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f3ea2bc556590d0800000000000000
+      internalID: -3416713293481492731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 820
+        width: 529
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b5956d4224da430800000000000000
+      internalID: 3795762786925632319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 20
+        width: 467
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7aaec1a30289b40800000000000000
+      internalID: 5447139183269947377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 20
+        width: 395
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3ecdc3907cd6900800000000000000
+      internalID: 679417961292555172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JabSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 20
+        width: 395
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d3303d4143333e0800000000000000
+      internalID: -2075257739243471474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      JabSheet_0: -7000459836241405322
+      JabSheet_1: 4669757479523217629
+      JabSheet_10: -4315516097572136807
+      JabSheet_11: 5421398058865925413
+      JabSheet_12: 1661873231125239227
+      JabSheet_13: -3416713293481492731
+      JabSheet_14: 3795762786925632319
+      JabSheet_15: 5447139183269947377
+      JabSheet_16: 679417961292555172
+      JabSheet_17: -2075257739243471474
+      JabSheet_2: 4378361916549987607
+      JabSheet_3: 6600593616674692105
+      JabSheet_4: 6900606423088872247
+      JabSheet_5: -3734933602332330994
+      JabSheet_6: 1512841156369146984
+      JabSheet_7: 5844278892271984476
+      JabSheet_8: -3682020481591949340
+      JabSheet_9: 7088240824070861452
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
