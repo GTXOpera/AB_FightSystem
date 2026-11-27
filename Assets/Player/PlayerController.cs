@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
     public float JUMP = 680f;
     private float SPEED = 8f;
     public bool ground;
+    public bool rival;
     public bool otherPlayer;
     private bool crouched;
     public bool invert = false;
@@ -79,6 +80,17 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Jab") || animator.GetCurrentAnimatorStateInfo(0).IsName("Kick"))
+        {
+            playerinput.actions.Disable();
+        }
+        else
+        {
+            playerinput.actions.Enable();
+        }
+
+
         switch (PlayerState)
         {
             case STATES.Idle:
@@ -121,7 +133,7 @@ public class PlayerController : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y);
                 cl.color = Color.blue; //azul
                 break;
-        }
+        } 
     }
 
     private void UpdateState()
@@ -309,13 +321,18 @@ public class PlayerController : MonoBehaviour
 
     private void GroundCheck()
     {
-        float raylength = 3.1f;
+        float raylength = 3.2f;
 
         Ray ray = new Ray(transform.position, Vector2.down);
         Debug.DrawRay(ray.origin, ray.direction * raylength, Color.green);
 
         ground = Physics2D.Raycast(ray.origin, ray.direction, raylength);
+
     }
 
+    private void RivalCheck()
+    {
+
+    }
 
 }
