@@ -16,6 +16,7 @@ public class CharacterSelectionManager : MonoBehaviour
     public GameObject settingsPanel;
     public AudioMixer audioMixer;
     public Image stagePreview;
+    public GameObject controlsPanel;
 
 
     public void ConfirmSelection()
@@ -86,5 +87,15 @@ public class CharacterSelectionManager : MonoBehaviour
     {
         audioMixer.SetFloat("SFXVolume",
             volume > 0.0001f ? Mathf.Log10(volume) * 20 : -80f);
+    }
+    public void OpenControls()
+    {
+        mainMenuPanel.SetActive(false);
+        controlsPanel.SetActive(true);
+    }
+    public void CloseControls()
+    {
+        controlsPanel.SetActive(false);
+        mainMenuPanel.SetActive(true);
     }
 }
