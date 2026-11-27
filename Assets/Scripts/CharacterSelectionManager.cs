@@ -15,10 +15,13 @@ public class CharacterSelectionManager : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject settingsPanel;
     public AudioMixer audioMixer;
+    public Image stagePreview;
 
 
     public void ConfirmSelection()
     {
+        stagePreview.enabled = false;
+
         characterSelectPanel.SetActive(false);
         stageSelectPanel.SetActive(true);
     }
@@ -54,10 +57,12 @@ public class CharacterSelectionManager : MonoBehaviour
         characterFoto.sprite = characterSprites[index];
         characterFoto.enabled = true;
         characterNombre.text = characterNames[index];
+        characterNombre.enabled = true;
     }
     public void StartGame()
     {
         characterFoto.enabled = false;
+        characterNombre.enabled = false;
         mainMenuPanel.SetActive(false);
         characterSelectPanel.SetActive(true);
     }

@@ -35,10 +35,12 @@ public class StageSelectionManager : MonoBehaviour
     void SelectStage(int index)
     {
         stageName.text = stageNames[index];
+        stageName.enabled = true;
 
         if (stageSprites[index] != null)
         {
             stagePreview.sprite = stageSprites[index];
+            stagePreview.enabled = true;
         }
     }
 
@@ -50,5 +52,10 @@ public class StageSelectionManager : MonoBehaviour
     public void ConfirmStage()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+    void Start()
+    {
+        stagePreview.enabled = false;
+        stageName.enabled = false;
     }
 }
