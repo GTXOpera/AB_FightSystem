@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BoxerAOC
+  m_Controller: {fileID: 9100000, guid: 0542f4649af288d4d937084722f84d71, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: e4ec7bc35d6f22343b3d361fdd07706c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 86a97d0fbef3cd6448ef384386572585, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f733998b0a7e46a46a6880ae6a1b83c3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7364a7f8b21786b4eb0ff11e7bf42127, type: 2}
